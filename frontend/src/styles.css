@@ -1,0 +1,56 @@
+#page {
+  color: white;
+  height: 100vh;
+  background: linear-gradient(
+    200.96deg,
+    #2afec9 -29.09%,
+    #3969a0 51.77%,
+    #7a2c9e 129.35%
+  );
+  /* font-family: sans-serif; */
+  overflow-y: hidden;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  overflow: hidden;
+}
+
+#navigation {
+  height: 7vh;
+  background-color: rgb(34, 0, 156);
+}
+
+body {
+  background: linear-gradient(
+    200.96deg,
+    #2afec9 -29.09%,
+    #3969a0 51.77%,
+    #7a2c9e 129.35%
+  );
+  overflow: hidden;
+  height: 100vh;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.center {
+  /* padding: 20px; */
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.output {
+  margin-top: 20px;
+  font-weight: bold;
+  text-align: center;
+}

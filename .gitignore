@@ -1,0 +1,5 @@
+bot/node_modules
+frontend/node_modules
+bot/sslcert/cert.*
+frontend/dist
+bot/config.js
