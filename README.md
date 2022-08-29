@@ -2,7 +2,7 @@
 
 Bot for linking discord accounts to wallet addresses.
 
-Creates a one time value for the user to sign with there wallet via the browser to verify that the user is in control of the account.
+Creates a one time value for the user to sign to verify that the user is in control of the account.
 
 ### Commands
 
